@@ -1,7 +1,23 @@
 /* ==========================================================================
    Instert your CSS below this line
    ========================================================================== */
+section {
+	background-color: green;
+	color: white;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin:20px;
+	padding:20px;
+	float:left;
+	width:200px;
+}
 
+section#tv {
+	background-color: purple;
+	width:200px;
+	clear:both;
+}	
 /****************************
 For border radius help, you can use CSS generators like: 
 http://border-radius.com/ 
