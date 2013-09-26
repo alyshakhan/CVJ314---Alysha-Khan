@@ -78,11 +78,49 @@ where each column is 54px and each gutter is 30px
 -----------------------------------------------------------------------------*/
 .steps {
 	background-color: #FFD266;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 }
 
 img {
-	width:300px;
+	width:250px;
 	height:auto;
+	display: block;
+   	margin-left: auto;
+  	margin-right: auto
+}
+
+.leftmargin {
+	margin-left: 30px;
+}
+
+.left {
+	float:left;
+}
+
+h3, p {
+	text-align: center;
+}
+
+.ingredients {
+	background-color: #105B63;
+}
+
+#ingredientshead {
+	color:#FFF9D6;
+}
+
+.center {
+	display: block;
+   	margin-left: auto;
+  	margin-right: auto
+}
+
+.clear {
+	clear:both;
 }
 
 .col1 { width: 54px; }
@@ -114,7 +152,3 @@ img {
 
 /* Footer
 -----------------------------------------------------------------------------*/
-#footer {
-	height: 100px;
-	background: #BFF08E;
-}
