@@ -60,13 +60,14 @@ table {
 body {
 	font: 12px/18px Georgia, Times, serif;
 	width: 100%;
-	background-color: #C96B5A;
+	background-image:url('http://alyshak.com/assignments/instructional/images/background.jpg');
 }
 
 /*------ put everything inside <div id="wrapper"> - this gives your website a fixed width of 978px -------*/
 #wrapper {
 	width: 978px;
 	margin: 0 auto;
+	background-color: #BD4931;
 }
 
 
@@ -77,7 +78,7 @@ body {
 where each column is 54px and each gutter is 30px
 -----------------------------------------------------------------------------*/
 .steps {
-	background-color: #FFD266;
+	background-color: #FFD34E;
 	margin-bottom: 25px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box; 
@@ -85,6 +86,8 @@ where each column is 54px and each gutter is 30px
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 img {
@@ -113,10 +116,9 @@ h3, p, h1, h2 {
 
 .ingredients {
 	background-color: #105B63;
-}
-
-#ingredientshead {
-	color:#FFF9D6;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
 }
 
 .center {
@@ -143,6 +145,41 @@ article.ingredients p {
 	position:relative;
 	left: 336px;
 	top:0px;
+}
+
+p {
+	font-size: 12pt;
+}
+
+h1, h2, h3 {
+	font-family: Bubblegum Sans, cursive;
+	color:#FFF9D6;
+}
+
+h1 {
+	font-size:4em;
+}
+
+h2 {
+	font-size:3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+#title {
+	position: absolute;
+	top:60px;
+	left:380px;
+}
+
+#hattype {
+	position: relative;
+}
+
+.stepnumber {
+	color:#BD4931;	
 }
 
 .col1 { width: 54px; }

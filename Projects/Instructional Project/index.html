@@ -8,6 +8,8 @@
 	
 	<!--css stylesheets-->
         <link rel="stylesheet" href="css/main.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
     </head>
 
 <body>
@@ -16,20 +18,24 @@
 
 	<section> <!--Banner Section -->
 
-		<article> <!--Title + Hat -->
+		<div id="hattype">
+		<img src="images/hat.png" id="hat" alt="hat"/>
 
-			<img src="images/hat.png" id="hat"/>
+		<article id="title"> <!--Title-->
 			
 			<h2>How to make an</h2>
-			<h1>An Awesome Cheese Sandwich</h1>
+			<h1>Awesome</h1>
+			<h1>Cheese</h1> 
+			<h1>Sandwich</h1>
 
 		</article>
+
+		</div>
 
 		<article class="ingredients"> <!--Ingredients -->
 
 			<h3 id="ingredientshead"> Ingredients</h3>
 			<p> Bread | Chedder cheese | Tomato | Ranch dressing | Black pepper | Oregano</p>
-			</ul>
 		</article>
 
 	</section>
@@ -39,23 +45,23 @@
 		<div> <!--First Row -->
 
 			<article class="steps col4 left">
-				<h3>Step 1</h3>
+				<h3 class="stepnumber">Step 1</h3>
 				<img src="images/placeholder.jpg" alt="placeholder" />
 				<p>Gather all the ingredients.</p>
 			</article>
 
 
 			<article class="steps col4 left leftmargin">
-				<h3>Step 2</h3>
+				<h3 class="stepnumber">Step 2</h3>
 				<img src="images/placeholder.jpg" alt="placeholder" />
 				<p>Chop the tomato into slices.</p>
 			</article>
 
 
 			<article class="steps col4 left leftmargin">
-				<h3>Step 3</h3>
+				<h3 class="stepnumber">Step 3</h3>
 				<img src="images/placeholder.jpg" alt="placeholder" />
-				<p>Spread ranch dressing on the slices of bread.</p>
+				<p>Spread ranch dressing on the bread.</p>
 			</article>
 
 		</div>
@@ -63,16 +69,16 @@
 		<div class="center secondrow"> <!--Second Row -->
 
 			<article class="steps col4 left">
-				<h3>Step 4</h3>
+				<h3 class="stepnumber">Step 4</h3>
 				<img src="images/placeholder.jpg" alt="placeholder" />
-				<p>Sprinkle black pepper and oregano on both slices.</p>
+				<p>Sprinkle black pepper and oregano on the bread.</p>
 			</article>
 
 
 			<article class="steps col4 left leftmargin">
-				<h3>Step 5</h3>
+				<h3 class="stepnumber">Step 5</h3>
 				<img src="images/placeholder.jpg" alt="placeholder" />
-				<p>On the bottom slice, stack the tomato and cheese.</p>
+				<p>Stack the tomatos and cheese on the bottom slice.</p>
 			</article>
 
 		</div>
@@ -80,7 +86,7 @@
 		<div class="center clear thirdrow"> <!--Last Row -->
 
 			<article class="steps col4 left">
-				<h3>Step 6</h3>
+				<h3 class="stepnumber">Step 6</h3>
 				<img src="images/placeholder.jpg" alt="placeholder" />
 				<p>Slap the top slice on, cut in half and enjoy!</p>
 			</article>
