@@ -58,7 +58,7 @@ table {
 
 
 body {
-	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	font: 12px/18px Georgia, Times, serif;
 	width: 100%;
 	background-color: #C96B5A;
 }
@@ -79,6 +79,8 @@ where each column is 54px and each gutter is 30px
 .steps {
 	background-color: #FFD266;
 	margin-bottom: 25px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
 	box-sizing: border-box;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -93,6 +95,10 @@ img {
   	margin-right: auto
 }
 
+#hat {
+	width:500px;
+}
+
 .leftmargin {
 	margin-left: 30px;
 }
@@ -101,7 +107,7 @@ img {
 	float:left;
 }
 
-h3, p {
+h3, p, h1, h2 {
 	text-align: center;
 }
 
@@ -121,6 +127,22 @@ h3, p {
 
 .clear {
 	clear:both;
+}
+
+article.ingredients p {
+	color:#FFF9D6;
+}
+
+.secondrow {
+	position:relative;
+	left: 168px;
+	top:0px;
+}
+
+.thirdrow {
+	position:relative;
+	left: 336px;
+	top:0px;
 }
 
 .col1 { width: 54px; }
