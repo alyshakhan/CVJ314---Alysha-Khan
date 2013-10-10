@@ -65,7 +65,7 @@ body {
 	width: 978px;
 	margin: 0 auto;
 	padding: 12px;
-	/* if you don't want to see the grid, then comment out the next line
+	/* if you don't want to see the grid, then comment out the next line 
 	background: url(../978-grid.png) repeat-y center; */
 	overflow: auto;
 	background-color: #F2EBC7;
@@ -173,12 +173,70 @@ nav.bar {
 }
 
 footer.bar {
-	margin-top: 20px;
+	margin-top:70px;
 	font-size: 1em;
+}
+
+.line {
+	height:1px;
+	width: 978px;
+	background-color:#C8C8C8 ;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 /* End style applicable to both pages */
 
 /* Start style applicable to index page */
 
+.mug {
+	height:138px;
+	width:138px;
+}
 
+.bio {
+	margin-left: 100px;
+	text-align: center;
+}
+
+.biostart {
+	margin-left:40px;
+	text-align: center;
+}
+
+.biomore {
+	margin-left: 120px;
+}
+
+.bandrow {
+	padding-top: 10px;
+}
+/* End style applicable to index page */
+
+/* Start style applicable to music page */
+
+table, tr, td {
+	border:1px #962D3E;
+	padding:7px;
+	border-bottom-style: dotted;
+}
+
+.toprow {
+	background-color: #DACD98;
+	font-weight: bold;
+}
+
+#music, #tour {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#music {
+	margin-left: 309px;
+}
+
+#tour {
+	margin-left: 255px;
+}
+
+/* End style applicable to music page */
