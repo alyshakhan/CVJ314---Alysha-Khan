@@ -1,0 +1,79 @@
+------------------------
+EXAM - 20 points 
+(point breakdown below)
+------------------------
+
+Don't Make Me Think questions (2)
+Website validates using validator.w3.org (2)
+Proper HTML structure (6)
+Proper use of grid, including matching grid layout from screenshot (2)
+CSS to match desired page layout (8)
+
+EXTRA CREDIT - Colored banner at top (2) - Only try this if you complete the rest and still have time remaining.
+
+------------------------
+WEBSITE INSTRUCTIONS
+------------------------
+
+Use the provided template files and add the necessary HTML and CSS to make the desired layout.
+Use the 12-col grid. Shadowed box is 8 columns. News area is 4 columns. The rest should be obvious.
+
+Make sure the image and text underneath it aren't touching the edge of the shadow box.
+
+Make sure the text sizes are relatively the same as in the screenshot. (Example: the date is smaller than the blog post name. Miami Scene is really large and fits across the width of the main page area.)
+
+All text is black except where I note it is a specific color.
+
+DO NOT USE <hr> to create the lines (hint: use the box model).
+
+Submit ONE .ZIP file (with all your website files) to the "Exam" quest on the Queso website
+
+------------------------
+COLORS
+------------------------
+
+Colored bar colors:
+1 - rgb(63,184,175)
+2 - rgb(127,199,175) 	// same color as box at the very bottom of webpage
+3 - rgb(218,216,167)
+4 - rgb(255,158,157)
+5 - rgb(255,61,127)
+6 - #000
+
+
+black 		#000
+light gray 		#888
+red			#F00
+
+
+------------------------
+WEB TEXT
+------------------------
+
+
+Miami Scene <!-- font size is 115px // font family is Allerta (available at http://www.google.com/fonts -->
+
+This Week
+
+October 7, 2013 <!-- font is Arial // size is 10 px -->
+
+Beach Sunset <!-- font is Allerta // size is 24 px -->
+
+<!-- font is Arial // size is 13 px -->
+Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+Read more... <-- link to: sun.html - won't be a working link -->
+
+
+News
+
+
+Miami Herald <-- link to: http://www.miamiherald.com/ // font is Allerta // size is 14px -->
+
+New Times <-- link to: http://www.miaminewtimes.com // font is Allerta // size is 14px -->
+
+Sun Sentinel <-- link to: http://www.sun-sentinel.com/ // font is Allerta // size is 14px -->
+
+<!-- image of UM SOC logo - link to: http://com.miami.edu // font is Allerta // size is 14px -->
+
+&copy; 2013 Miami Scene  <!-- use &copy; in HTML to show copyright symbol on your webpage // font is Arial // size is 14 px -->

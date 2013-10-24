@@ -1,0 +1,150 @@
+/*-- using http://csslayoutgenerator.com/ as a starting point */
+
+
+
+/*              RESET from Eric Meyer
+--------------------------------------------------------*/ 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------ END RESET -----------*/
+
+
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	background-color: #42282F;
+}
+
+/*------ put everything inside <div id="wrapper"> - this gives your 
+		website a fixed width of 978px + (12 px * 2) padding = 1002px -------*/
+#wrapper {
+	width: 978px;
+	margin: 0 auto;
+	padding: 12px;
+	overflow: auto;
+}
+
+
+/* 978.gs column widths for a 12-column layout 
+where each column is 54px and each gutter is 30px
+-----------------------------------------------------------------------------*/
+
+.col1 { width: 54px; }
+.col2 { width: 138px; }
+.col3 { width: 222px; }
+.col4 { width: 306px; }
+.col5 { width: 390px; }
+.col6 { width: 474px; }
+.col7 { width: 558px; }
+.col8 { width: 642px; }
+.col9 { width: 726px; }
+.col10 { width: 810px; }
+.col11 { width: 894px; }
+.col12 { width: 978px; }
+
+
+/* Start My CSS  http://www.youtube.com/watch?v=e8dYG6iam2M*/
+
+.left {
+	float: left;
+}
+
+.marginleft {
+	margin-left: 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+h1, h2 {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	line-height: 1em;
+}
+
+h1 {
+	color: #D6655A;
+	font-size: 5em;
+}
+
+h2 {
+	color: #74A588;;
+	font-size: 3em;
+}
+
+span {
+	color: #D6CCAD;
+}
+
+#toppic {
+	width:306px;
+	height: auto;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reason {
+	margin-top: 50px;
+}
+
+#cast {
+		 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+li {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
